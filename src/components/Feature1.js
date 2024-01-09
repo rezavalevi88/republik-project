@@ -16,7 +16,8 @@ const Feature1 = () => {
           {/* text */}
           <div className='flex-1' data-aos='fade-right'
           // data-aos-delay='1200'
-          data-aos-offset='450'>
+          data-aos-offset='250'
+          data-aos-delay='250'>
             <div className='pretitle'>{pretitle}</div>
             <h2 className='title'>{title}</h2>
             <p className='lead'>{subtitle}</p>
@@ -29,7 +30,8 @@ const Feature1 = () => {
           {/* image */}
           <div className='flex-1' data-aos='fade-left'
           // data-aos-delay='1400'
-          data-aos-offset='350'>
+          data-aos-offset='250'
+          data-aos-delay='250'>
             <img className='w-[32rem]' src={image} alt='' />
           </div>
         </div>

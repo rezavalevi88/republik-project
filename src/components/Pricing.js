@@ -15,7 +15,8 @@ const Pricing = () => {
         {/* title */}
         <h2 className='h2 mb-10 lg:mb-20 text-center'
         data-aos='fade-up'
-        data-aos-delay='700'
+        data-aos-offset='250'
+        data-aos-delay='250'
         >{title}</h2>
         {/* cards */}
         <div className='flex flex-col lg:flex-row lg:gap-x-[1.875rem]
@@ -30,7 +31,7 @@ const Pricing = () => {
                 <div 
                 data-aos='fade-up'
                 data-aos-delay={delay}
-                data-aos-offset='800'
+                // data-aos-offset='250'
                 key={cardIndex}>
                   <div
                     onClick={() => setIndex(cardIndex)}

@@ -14,11 +14,12 @@ const Testimonials = () => {
         <h2 className=' title mb-10 lg:mb-20 text-center 
         max-w-[57.5rem] mx-auto'
         data-aos='fade-up'
-        data-aos-offset='900'
+        data-aos-offset='250'
+        data-aos-delay='150'
         >{title}
         </h2>
         {/* slider */}
-        <div data-aos='fade-up' data-aos-offset='900'>
+        <div data-aos='fade-up' data-aos-offset='250' data-aos-delay='150'>
           <ClientSlider clients={clients} />
         </div>
     </div>

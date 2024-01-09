@@ -15,7 +15,8 @@ const Feature3 = () => {
           lg:items-center lg:gap-x-[1.875rem] m:mb-[2rem]'>
           {/* text */}
           <div className='flex-1' data-aos='fade-right'
-          data-aos-offset='450'>
+            data-aos-offset='250'
+            data-aos-delay='250'>
             <div className='pretitle'>{pretitle}</div>
             <h2 className='title'>{title}</h2>
             <p className='lead'>{subtitle}</p>
@@ -26,7 +27,8 @@ const Feature3 = () => {
           </div>
           {/* image */}
           <div className='flex-1' data-aos='fade-left'
-          data-aos-offset='450'>
+          data-aos-offset='250'
+          data-aos-delay='250'>
             <img className='w-[30rem]' src={image} alt='' />
           </div>
         </div>
