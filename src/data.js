@@ -50,7 +50,7 @@ export const nav = [
 
 export const hero = {
   title: 'Ayo buat brand kamu menarik !!!',
-  subtitle: 'Kami siap membangun brand kamu lebih menarik dan proffesional,',
+  subtitle: 'Kami siap membangun brand kamu lebih menarik dan proffesional',
   btnText: 'Hubungi kami',
   // compText: '— Web, iOS and Android',
   image: HeroImg,
