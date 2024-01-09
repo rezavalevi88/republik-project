@@ -148,7 +148,7 @@ export const testimonials = {
       //     'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
       imgporto: Porto2,
       image: AvatarImg2,
-      name: 'Bpk. Sandi Prabowo',
+      name: 'Bpk. Sandi Prabowo SH',
       // position: 'CEO',
       borderColor: '#0052A3',
     },
