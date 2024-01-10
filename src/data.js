@@ -8,7 +8,7 @@ import AvatarImgx1 from '../src/img/testimonial/avaisg.png';
 import AvatarImgx2 from '../src/img/testimonial/avafinnix.png';
 import AvatarImgx3 from '../src/img/testimonial/avaol.png';
 import AvatarImgx4 from '../src/img/testimonial/avajg.png';
-import HeroImg from '../src/img/hero/image.svg';
+import HeroImg from '../src/img/hero/image.png';
 // import AvatarImg5 from '../src/img/testimonial/avatar5.png';
 // import AvatarImg6 from '../src/img/testimonial/avatar6.png';
 import Feature1Img from '../src/img/features/sp1.png';
@@ -30,8 +30,8 @@ import Portosm1 from '../src/img/testimonial/portosm1.png'
 import Portosm2 from '../src/img/testimonial/portosm2.png'
 import Portosm3 from '../src/img/testimonial/portosm3.png'
 import Portosm4 from '../src/img/testimonial/portosm4.png'
-import CtaImg1 from '../src/img/cta/image1.svg';
-import CtaImg2 from '../src/img/cta/image2.svg';
+import CtaImg1 from '../src/img/cta/image1.png';
+import CtaImg2 from '../src/img/cta/image2.png';
 import FacebookIcon from '../src/img/copyright/facebook.svg';
 import TwitterIcon from '../src/img/copyright/twitter.svg';
 import LinkedinIcon from '../src/img/copyright/linkedin.svg';
@@ -58,7 +58,7 @@ export const hero = {
 
 export const features = {
   feature1: {
-    pretitle: 'Grow up your business',
+    pretitle: 'Grow Your Business',
     title: 'Company Branding',
     subtitle:
       'Memahami pasar untuk menciptakan merek yang relevan dan memenuhi kebutuhan target audiens Kamu.',
@@ -166,7 +166,7 @@ export const testimonials = {
       //     'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
       imgporto: Porto4,
       image: AvatarImg4,
-      name: 'Ibu.Aling',
+      name: 'Ibu. Aling',
       // position: 'CEO',
       borderColor: '#0052A3',
     },
@@ -251,6 +251,10 @@ export const testimonials3 = {
   ],
 };
 
+export const overview = {
+  title: '" Kami adalah tim kreatif yang tidak hanya bekerja bersama, tetapi juga bercita-cita bersama. Kami adalah cermin dari visi yang kami buat, dan setiap langkah adalah bagian dari kreativitas. Mari bersama-sama menghadirkan sisi keindahan, inovasi, dan inspirasi melalui setiap jejak langkah kreatif kami."',
+};
+
 export const cta = {
   title: 'Butuh jasa Foto & Video produk?',
   subtitle: 'Kami juga menyediakan jasanya loh',
@@ -296,8 +300,8 @@ export const copyright = {
   //   href: 'https://wa.me/62895802377770?text=Hallo,%20Reza', '_blank',
   // },
   link2: {
-    name: 'Contact us',
-    href: 'https://wa.me/62895802377770?text=Hallo,%20Reza',
+    name: 'Contact Us',
+    href: 'https://wa.me/62895802377770?text=Hallo,%20Saya%20ingin%20memesan%20jasa',
     target: '_blank',
   },
   copyText: 'Copyright @ 2024 Republik Project',

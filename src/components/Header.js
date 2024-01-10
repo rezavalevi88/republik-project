@@ -45,7 +45,7 @@ const Header = () => {
         <button className='btn btn-sm btn-outline hidden lg:flex'
         data-aos='fade-down' data-aos-delay='1400'
         onClick={() => {
-          window.open('https://wa.me/62895802377770?text=Hallo,%20Reza', '_blank');}}
+          window.open('https://wa.me/62895802377770?text=Hallo,%20Saya%20ingin%20memesan%20jasa', '_blank');}}
           >
           {btnText}
           </button>

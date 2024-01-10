@@ -10,7 +10,7 @@ const Cta = () => {
   return (
     <section className='section bg-cta bg-cover bg-left-top mt-[8rem]' 
     data-aos='fade-up'
-    data-aos-offset='700'>
+    data-aos-offset='500'>
       <div className='max-w-[83.75rem] mx-auto px-[1.563rem]'>
         {/* text */}
         <div className='max-w-[57.5rem] mx-auto text-center'>

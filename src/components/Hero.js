@@ -39,7 +39,7 @@ const Hero = () => {
               lg:btn-lg btn-accent flex justify-center 
               items-center lg:gap-x-4' 
               onClick={() => {
-                window.open('https://wa.me/62895802377770?text=Hallo,%20Reza', '_blank');}}
+                window.open('https://wa.me/62895802377770?text=Hallo,%20Saya%20ingin%20memesan%20jasa', '_blank');}}
                 >
             {/* <HiOutlineChevronDown /> */}
             <img className='w-[2rem] mr-[0.75rem] lg:mr-[0rem] xl:mr-[0rem]' src={wa} alt='' />
@@ -53,7 +53,7 @@ const Hero = () => {
           <div className='flex-1'
           data-aos= 'fade-down'
           data-aos-delay= '800'>
-            <img className='w-[45rem] pt-[2rem]' src={image} alt='' />
+            <img className='w-[45rem] pt-[4rem]' src={image} alt='' />
           </div> 
         </div>
       </div>
